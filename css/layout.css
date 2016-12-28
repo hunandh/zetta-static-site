@@ -1,7 +1,6 @@
 /* Colors
 
 blue: #2479B3;
-blue-light: #1C97D4;
 blue-dark: #0882C0;
 blue-darker: #1F447C;
 dark-blue: #2b3740;
@@ -14,6 +13,11 @@ green: #88CC66;
 red-light: #FDE8E8;
 yellow-light: #FFF7E6;
 green-light: #EDF8E8;
+blue-light: #DEEBF4;
+
+red-dark: #9B2828;
+yellow-dark: #8E6C25;
+green-dark: #3A771B;
 
 
 
@@ -163,10 +167,17 @@ a {
 
 .jumbotron h1 {
     width: 410px;
-    margin-bottom: 30px;
-    font-size: 48px;
+    margin-bottom: 0px;
+    font-size: 54px;
     font-weight: 600;
 }
+
+.jumbotron h1 b {
+    line-height: 80px;
+    font-weight: 800;
+}
+
+
 
 .jumbotron .caption {
     width: 410px;
@@ -174,10 +185,11 @@ a {
 }
 
 .jumbotron .hero-btn {
-    border-radius: 2px;
+    border-radius: 4px;
     margin-top: 20px;
     background: #F26161;
     border: none;
+    border-bottom: 4px solid #9B2828;
 }
 
 .jumbotron .hero-img {
@@ -286,10 +298,25 @@ a {
     margin: 0 auto;
 }
 
+.feature-box .feature-thumb.red-circle {
+    background: #FDE8E8;
+}
+
+.feature-box .feature-thumb.yellow-circle {
+    background: #FFF7E6;
+}
+.feature-box .feature-thumb.green-circle {
+    background: #EDF8E8;
+}
+.feature-box .feature-thumb.blue-circle {
+    background: #DEEBF4;
+}
+
 .feature-box .feature-thumb img {
     text-align: center;
     width: 54px;
     height: 54px;
+    color: #F26161;
 }
 
 
@@ -301,7 +328,7 @@ a {
     background: #ffffff;
     margin: 1px;
     display: block;
-    border-bottom: 2px solid #FFC859;
+    border-bottom: 4px solid #FFC859;
 }
 
 .industry-box.border-yellow {
