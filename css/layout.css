@@ -4,11 +4,14 @@ blue: #2479B3;
 blue-light: #1C97D4;
 blue-dark: #0882C0;
 blue-darker: #1F447C;
-
 dark-blue: #2b3740;
-
-
 blue-bg: #E1F5FC;
+
+yellow: #FFC859;
+red: #F26161;
+green: #88CC66;
+
+
 
 dark-light: #4E5966;
 dark: #444d58;
@@ -110,7 +113,7 @@ a {
     outline: none;
     border-top: 6px solid #2479B3;
     box-shadow: none !important;
-    border-bottom: 6px solid #ffffff;
+    border-bottom: 6px solid #FFC859;
 }
 
 .navbar-nav .nav-item .active:hover,
@@ -153,7 +156,8 @@ a {
 .jumbotron h1 {
     width: 410px;
     margin-bottom: 30px;
-    font-size: 52px;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .jumbotron .caption {
@@ -164,6 +168,8 @@ a {
 .jumbotron .hero-btn {
     border-radius: 2px;
     margin-top: 20px;
+    background: #F26161;
+    border: none;
 }
 
 .jumbotron .hero-img {
@@ -285,7 +291,18 @@ a {
     background: #ffffff;
     margin: 1px;
     display: block;
-    border-bottom: 1px solid #2479B3;
+    border-bottom: 2px solid #FFC859;
+
+}
+
+.industry-box.border-yellow {
+    border-color: #FFC859;
+}
+.industry-box.border-green {
+    border-color: #88CC66;
+}
+.industry-box.border-red {
+    border-color: #F26161;
 }
 
 .industry-box img {
