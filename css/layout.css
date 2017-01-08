@@ -377,8 +377,28 @@ a {
     font-family: 'Open Sans', sans-serif !important;
     font-size: 32px;
     font-weight: 800;
-    padding: 0 4px;
     color: #1F447C;
+}
+
+.contact-form h4 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px 0 0;
+    color: #2b3740;
+}
+
+.contact-form p {
+    padding-left: 36px;
+    position: relative;
+}
+
+.contact-form p img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
 }
 
 .contact-form input,
@@ -414,16 +434,9 @@ a {
 .short-line {
     display: inline-block;
     width: 20px;
+    margin: 12px 0;
     height: 1px;
     border-bottom: 4px solid #FFC859;
-}
-
-.contact-box h4 {
-    font-family: 'Open Sans', sans-serif !important;
-    font-size: 18px;
-    font-weight: 800;
-    margin-bottom: 10px;
-    color: #1F447C;
 }
 
 
@@ -493,6 +506,8 @@ a {
     }
     .navbar-fixed-top {
         margin-bottom: 0;
+        border: none;
+        position: fixed !important;
     }
     .navbar-default .navbar-brand {
         margin-left: 15px;
@@ -504,10 +519,20 @@ a {
         margin: 0;
         border: 0;
     }
+    .navbar-default .navbar-toggle {
+        margin-top: 20px;
+        margin-right: 54px;
+        border: none;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background: none !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
     .navbar-nav .nav-item {
         background: #2479B3;
     }
-
     .navbar-nav .nav-item a {
         border: 0 !important;
     }
@@ -517,7 +542,6 @@ a {
     .navbar-nav .nav-item .active:hover {
         border: 0 !important;
     }
-
     .jumbotron {
         margin-top: 0;
         padding-top: 0;
